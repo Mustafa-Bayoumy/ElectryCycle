@@ -1,0 +1,27 @@
+#about h2 {
+  color: #ffffff;
+}
+body.dark-mode #about h2 {
+  color: #000000;
+}
+
+#about .card {
+  background-color: #1d1e20;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+body.light-mode #about .card {
+  background-color: #f5f5f5;
+  color: #000000;
+}
+
+#about .card img {
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.15));
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+#about .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}

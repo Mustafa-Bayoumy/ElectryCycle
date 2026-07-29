@@ -1,0 +1,59 @@
+body 
+{
+background-color: #000; 
+display: flex;
+justify-content: center;
+ align-items: center;
+}
+.register-card 
+{
+background-color: #1e1e2e;
+color: #fff;
+border-radius: 40px;
+padding: 30px;
+width: 100%;
+max-width: 400px;
+box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+margin-top: 15vh;
+margin-bottom: 15vh;
+}
+body.light-mode .register-card 
+{
+background-color: #e9f2ff !important;
+color: #000 !important ;
+}
+.form-control 
+{
+background-color: #000000;
+border: none;
+color: #fff;
+border-radius: 20px;
+}
+.form-control:focus
+{
+background-color: #2a2a3c;
+color: #fff;
+box-shadow: 0 0 0 0.25rem rgba(59,130,246,0.5);
+}
+.btn-custom 
+{
+      background-color: #3b82f6;
+      border: none;
+      width: 100%;
+      padding: 10px;
+      border-radius: 25px;
+      font-weight: 500;
+}
+.btn-custom:hover
+{
+      background-color: #2563eb;
+}
+.text-muted 
+{
+      color: #ffffff !important;
+      text-decoration: none;
+}
+.text-muted a:hover 
+{
+      text-decoration: underline;
+}

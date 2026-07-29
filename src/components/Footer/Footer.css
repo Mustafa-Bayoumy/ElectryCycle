@@ -1,0 +1,67 @@
+footer {
+  background: linear-gradient(to right, #0376f3, #284361);
+  color: #fff;
+  padding: 60px 20px;
+  width: 100vw;
+  
+}
+
+body.light-mode footer {
+  background: linear-gradient(to right, #579cf1, #6b97e3);
+  color: #000;
+}
+
+footer h6 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-link {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #00d4ff;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+.social-icons a {
+  color: inherit;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+.social-icons a:hover {
+  color: #00d4ff;
+}
+
+.form-control {
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+}
+body.light-mode .form-control {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.btn-primary {
+  border-radius: 8px;
+  border: none;
+  padding: 10px 18px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+.btn-primary:hover {
+  background: #0099df;
+}

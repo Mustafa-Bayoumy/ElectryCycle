@@ -1,0 +1,29 @@
+#hero1 .hero-box1 {
+  background: #042140;
+  border-radius: 1.5rem;
+  color: #ffffff;
+}
+
+body.light-mode #hero1 .hero-box1 {
+  background: #e9f2ff;
+  color: #000000;
+}
+
+#hero1 .hero-img1 {
+  max-height: 420px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 1.5rem;
+}
+
+@media (max-width: 575.98px) {
+  #hero1 .hero-img {
+    max-height: 220px;
+  }
+}
+
+
+
+
+
+

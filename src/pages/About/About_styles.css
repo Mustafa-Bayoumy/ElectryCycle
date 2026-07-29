@@ -1,0 +1,65 @@
+
+.About p
+{
+    color: gray;  
+}
+.Top
+{
+    display: grid;
+}
+#mission{
+    background-color: rgb(39, 39, 39);
+    margin-top: 10px !important;
+}
+
+body.light-mode #mission {
+  background: #e9f2ff;
+}
+
+#vision {
+  background: transparent; /* keep container clean */
+  
+}
+
+#vision .sec {
+  background-color: #00254D;
+  color: #fff;
+  border-radius: 12px;
+  margin: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+#vision .sec:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+#vision .icon {
+  font-size: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.future-text h2 {
+    font-size: 1.6rem;
+}
+
+.future-text p {
+    font-size: 1.1rem;
+    color: gray;
+}
+
+.future-image img {
+    width: 100%;
+    height: auto;
+    float: right !important;
+}
+
+.bottom-text {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}

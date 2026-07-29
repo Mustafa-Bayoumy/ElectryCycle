@@ -1,0 +1,44 @@
+.community {
+    padding: 60px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.community-text {
+    flex: 1;
+}
+
+.community-text h2 {
+    margin-bottom: 15px;
+}
+
+.community-text p {
+    margin-bottom: 20px;
+}
+
+.community-text .btn {
+    background: #1da1f2;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 12px 25px;
+    color: #fff;
+    transition: background 0.3s;
+}
+
+.community-text .btn:hover {
+    background: #0d8ddb;
+}
+
+.community img {
+    flex: 1;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.community-text .desc {
+    color: #bbb;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,58 @@
+
+.NAVB {
+    padding-bottom: 60px;
+}
+
+
+.rf-wrapper {
+  padding: 60px 20px;
+  min-height: 100vh;
+}
+
+.rf-heading h1 {
+  font-size: 38px;
+}
+
+.rf-subtitle {
+  max-width: 650px;
+  margin: 0 auto 40px;
+  color: #cccccc;
+  font-size: 16px;
+}
+
+.rf-form {
+  background: #1e1e2e;
+  width: 100%;
+  max-width: 560px;
+  border: none;
+}
+
+.form-label{
+border: none !important;}
+
+.rf-input {
+  background: #2a2a3d !important;
+  border: none !important;
+  color: white !important;
+}
+
+.rf-input:focus {
+  border-color: #5b8bff !important;
+  box-shadow: none !important;
+}
+
+.rf-note {
+  color: #999;
+}
+
+.rf-submit {
+  background: #2d74ff;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  transition: 0.2s;
+}
+
+.rf-submit:hover {
+  background: #1e5ee6;
+}

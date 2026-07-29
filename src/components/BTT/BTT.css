@@ -1,0 +1,27 @@
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 50%;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#backToTopBtn:hover {
+  opacity: 1;
+}
+
+#backToTopBtn img {
+  width: 70%;
+  height: auto;
+}

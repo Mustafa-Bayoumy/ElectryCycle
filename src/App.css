@@ -1,0 +1,78 @@
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Default (Dark Mode) */
+body {
+  background-color: #000000 !important;
+  color: #ffffff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light Mode */
+body.light-mode {
+  background-color: #ffffff !important;
+  color: #000000;
+}
+
+
+/* --- ANIMATIONS --- */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.animate-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.fade-in {
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.nav-bar {
+  margin-bottom: 100px;
+}
+
+
+
+/* General fix for all main action buttons */
+.btn,
+.btn-lg,
+.btn-outline-light,
+.btn-outline-secondary,
+.btn-primary {
+  border-radius: 0.75rem !important; /* same roundness everywhere */
+ 
+  transition: all 0.3s ease;
+}
+
+/* Make sure all outline buttons have the same thickness */
+.btn-outline-light,
+.btn-outline-secondary {
+  border-width: 0.5px !important;
+}
+
+/* Optional: keep consistent hover behavior */
+.btn:hover,
+.btn:focus {
+  transform: translateY(-1px);
+}
+
+/* Keep hero buttons same size as navbar */
+#hero .btn,
+#navbar .btn {
+  border-radius: 0.75rem !important;
+  padding: 0.6rem 1.4rem !important;
+}
